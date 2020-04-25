@@ -6,6 +6,7 @@ Rectangle {
     id: me
     property alias icon: icon.source
     property alias text: label.text
+    property alias status_online: status.text
     property bool selected: false
 
     signal leftClick()
@@ -34,12 +35,23 @@ Rectangle {
             Layout.preferredWidth: height
             Layout.margins: 4
         }
-        Label {
+
+        ColumnLayout {
+            Label {
             id: label
-            Layout.fillWidth: true
+            font.pixelSize: 15
             font.bold: true
+            Layout.fillWidth: true
+        }
+
+        Label {
+            id: status
+            font.pixelSize: 13
+            font.italic: true
+            Layout.fillWidth: true
         }
     }
+ }
     MouseArea {
         id: area
         anchors.fill: parent
