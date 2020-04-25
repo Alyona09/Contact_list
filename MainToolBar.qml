@@ -9,6 +9,7 @@ RowLayout {
         id: textField
         Layout.fillWidth: true
         selectByMouse: true
+        placeholderText: "Добавить контакт"
     }
 
     function add()
