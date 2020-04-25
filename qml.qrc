@@ -6,5 +6,12 @@
         <file>Contactitem.qml</file>
         <file>ContactList.qml</file>
         <file>MainToolBar.qml</file>
+        <file>SearchContact.qml</file>
+        <file>icons/LittleDragon.png</file>
+        <file>icons/Cat.jpg</file>
+        <file>icons/Lazarev.jpg</file>
+        <file>icons/SushiWok.png</file>
+        <file>icons/Heart.jpg</file>
+        <file>icons/Sakura.jpg</file>
     </qresource>
 </RCC>
