@@ -42,13 +42,15 @@ Rectangle {
             font.pixelSize: 15
             font.bold: true
             Layout.fillWidth: true
+            elide: Label.ElideRight
         }
 
-        Label {
+            Label {
             id: status
             font.pixelSize: 13
             font.italic: true
             Layout.fillWidth: true
+            elide: Label.ElideRight
         }
     }
  }
